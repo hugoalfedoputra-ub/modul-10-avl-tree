@@ -1,5 +1,3 @@
-package avltree;
-
 import java.util.Scanner;
 
 class Node {
@@ -200,7 +198,7 @@ class AVLTree {
     }
 }
 
-public class CommitAll {
+public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int check = 0, check_opt = 0, check_case1 = 0;
@@ -275,3 +273,4 @@ public class CommitAll {
         sc.close();
     }
 }
+
